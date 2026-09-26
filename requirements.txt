@@ -1,0 +1,3 @@
+adb + fastboot must be in PATH.
+Download Platform-Tools: https://developer.android.com/tools/releases/platform-tools
+No Python third-party deps required (stdlib only).

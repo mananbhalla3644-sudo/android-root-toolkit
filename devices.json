@@ -1,0 +1,18 @@
+{
+  "samsung_galaxy_s23_SM-S911B": {
+    "brand": "samsung",
+    "recovery_note": "Use Odin AP slot with TWRP .tar for SM-S911B. Bootloader must be unlocked (long-press Vol Up in Download Mode). KNOX WILL TRIP (0x1) irreversibly.",
+    "twrp_url": "https://twrp.me/samsung/samsunggalaxys23.html",
+    "unlock_method": "samsung_download_mode"
+  },
+  "pixel_8_shiba": {
+    "brand": "google",
+    "recovery_note": "fastboot flash recovery + fastboot flashing unlock. Use factory images from https://developers.google.com/android/images",
+    "twrp_url": "https://twrp.me/google/googlepixel8.html",
+    "unlock_method": "fastboot_flashing_unlock"
+  },
+  "_template": {
+    "brand": "generic",
+    "note": "Add your model: adb shell getprop ro.product.model + ro.product.device. Place matching TWRP.img in toolkit folder."
+  }
+}
